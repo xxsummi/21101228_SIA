@@ -8,5 +8,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.13.4",
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.10.1",
+    "react": "^19.0.0"
+  }
 }
