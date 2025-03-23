@@ -1,8 +1,12 @@
 {
   "name": "posts-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "concurrently \"npm run start:users\" \"npm run start:posts\"",
+    "start:users": "cd users-service && node server.js",
+    "start:posts": "cd posts-service && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,9 +14,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@apollo/client": "^3.13.4",
-    "apollo-client": "^2.6.10",
+    "@apollo/client": "^3.7.0",
+    "@prisma/client": "^5.4.1",
+    "apollo-server": "^3.12.0",
+    "concurrently": "^7.0.0",
     "graphql": "^15.10.1",
-    "react": "^19.0.0"
+    "graphql-ws": "^6.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
+    "ws": "^8.18.1"
   }
 }
