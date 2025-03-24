@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { ApolloClient, InMemoryCache, ApolloProvider, useQuery, useSubscription, gql, useMutation } from '@apollo/client';
-
-const client = new ApolloClient({
-  uri: 'http://localhost:4002', // Connect to posts service
-  cache: new InMemoryCache(),
-});
+import {ApolloProvider, useQuery, useSubscription, gql, useMutation } from '@apollo/client';
+import client from './ApolloConfig'
 
 const GET_POSTS = gql`
   query GetPosts {
