@@ -3,6 +3,7 @@ const { ApolloServer , gql} = require('apollo-server-express');
 const express = require('express');
 const { makeExecutableSchema } = require('@graphql-tools/schema');
 const { WebSocketServer } = require('ws');
+// const { useServer } = require('graphql-ws');
 const { useServer } = require('graphql-ws/lib/use/ws');
 const { PubSub } = require('graphql-subscriptions');
 const { PrismaClient } = require('@prisma/client');

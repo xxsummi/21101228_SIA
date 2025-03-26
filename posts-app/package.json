@@ -19,7 +19,7 @@
     "apollo-server": "^3.12.0",
     "concurrently": "^7.0.0",
     "graphql": "^15.10.1",
-    "graphql-ws": "^6.0.4",
+    "graphql-ws": "^5.9.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",

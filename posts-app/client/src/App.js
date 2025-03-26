@@ -50,7 +50,7 @@ const Posts = () => {
 
   return (
     <div className="posts-container">
-      <h1 className="page-title">Posts</h1>
+      <h1 className="page-title">ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐ Posts ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐</h1>
       
       <div className="table-container">
         <table className="posts-table">
@@ -88,7 +88,7 @@ function App() {
     <ApolloProvider client={client}>
       <div className="app">
         <header className="app-header">
-          <h1> Posts Management System</h1>
+          <h1>˚.🎀༘⋆ Posts Management System ִֶ˚.🎀༘⋆</h1>
         </header>
         <main>
           <Posts />
