@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import {ApolloProvider, useQuery, useSubscription, gql, useMutation } from '@apollo/client';
+import React from 'react';
+import {ApolloProvider, useQuery, useSubscription, gql } from '@apollo/client';
 import client from './ApolloConfig'
 
 const GET_POSTS = gql`
